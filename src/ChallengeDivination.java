@@ -6,7 +6,7 @@ public class ChallengeDivination {
         Scanner reader = new Scanner(System.in);
 
         int randomNumber = new Random().nextInt(100);
-        int chooseNumber = 0;
+        int chooseNumber;
         int attempts = 0;
 
         System.out.println("Guess what the random number is.");
